@@ -1,0 +1,16 @@
+# Build output
+*.exe
+*.dll
+*.pdb
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# User scan output (if saved inside repo by mistake)
+*_images_*/
+*_ocr_*/
