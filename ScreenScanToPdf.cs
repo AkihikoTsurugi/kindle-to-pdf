@@ -340,7 +340,7 @@ internal sealed class MainForm : Form
         _mode.SetBounds(140, 94, 160, 24);
         _mode.DropDownStyle = ComboBoxStyle.DropDownList;
         _mode.Items.AddRange(new object[] { "マウスホイール", "PageDown キー" });
-        _mode.SelectedIndex = 0;
+        _mode.SelectedIndex = 1;
 
         _pdfPath.SetBounds(140, 132, 420, 24);
         _pdfPath.Text = CaptureHelpers.DefaultPdfPath();
